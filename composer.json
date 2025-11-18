@@ -1,0 +1,22 @@
+{
+    "name": "fitri-hy/turboengine",
+    "description": "Extreme performance engine for Laravel 12.x, production-ready (Windows-friendly)",
+    "type": "library",
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^12.0",
+        "predis/predis": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "TurboEngine\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TurboEngine\\TurboEngineServiceProvider"
+            ]
+        }
+    }
+}
